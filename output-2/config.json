@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/blog/(<?url>.*)",
+      "dest": "/__ssr_prerender?url=$url"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/__ssr"
+    }
+  ]
+}
