@@ -5,7 +5,7 @@
 
    All requests end up being prerendered, even ones that are not prefixed with `/blog/`.
 
-3. Update `build` command to refer to `output-2`. The only difference is the name of the prerender function, which now has a `_` instead of `-`.
+3. Update `build` command to refer to `output-2`. The only difference is the name of the prerender function.
 
 4. Make a request to `/blog/something`
 
