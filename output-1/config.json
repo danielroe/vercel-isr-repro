@@ -2,7 +2,7 @@
   "version": 3,
   "routes": [
     {
-      "src": "/blog/(<?url>.*)",
+      "src": "/blog/(?<url>.*)",
       "dest": "/__prerender?url=$url"
     },
     {
