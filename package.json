@@ -2,7 +2,7 @@
   "name": "vercel-isr-repro",
   "version": "1.0.0",
   "scripts": {
-    "build": "cp -a output-1 .vercel/output"
+    "build": "rm -rfv .vercel/output && cp -av output-${VE-1} .vercel/output"
   },
   "license": "MIT"
 }
